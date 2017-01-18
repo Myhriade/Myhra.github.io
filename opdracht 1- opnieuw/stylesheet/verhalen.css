@@ -1,0 +1,27 @@
+
+img{
+    display: none;
+    margin: auto 0;
+    width: 100%;
+
+}
+main img:nth-of-type(1){
+    display: block;
+
+}
+        
+@media screen and (min-width: 23em) {
+    main img:nth-of-type(2){
+        display: block;}
+    main img:nth-of-type(1){
+    display: none;
+
+}
+    
+@media screen and (min-width: 49em) {
+    main img:nth-of-type(3){
+        display: block;}
+    main img:nth-of-type(2){
+    display: none;
+
+}

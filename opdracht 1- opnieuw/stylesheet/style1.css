@@ -1,0 +1,576 @@
+            /* header */
+        
+        @font-face {
+            font-family: dfds;
+            src: url("../font/dfds-bold.woff");
+        }
+        
+        @font-face {
+            font-family: dfds-light;
+            src: url("../font/dfds-light.woff");
+        }
+        
+/*        verhalen*/
+        
+
+        body {
+            background-color: #E5E6E6;
+            margin: 0;
+            padding-top: 5.2em;
+            padding-bottom: 6.4em;
+        }
+        
+        body > header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+        }
+        
+        .desktop {
+            display: none;
+            font-family: dfds;
+            font-size: 1.2em;
+            color: #112B43;
+        }
+        
+        header li i.fa.fa-star {
+            color: #B6B7B7;
+        }
+        
+        header li i.fa.fa-star:hover {
+            color: gray;
+        }
+        
+        header li {
+            font-family: "Segoe ui";
+            font-size: 1.2em;
+            display: inline-block;
+            border-color: white;
+            background-color: white;
+            width: 25%;
+            text-align: center;
+            padding-top: 0.2em;
+        }
+        
+        li i {
+            border-radius: 0.1em;
+            color: #B6B7B7;
+        }
+        
+        i:hover {
+            color: gray;
+        }
+        
+        li img {
+            max-width: 3.8em;
+            padding: 0;
+            margin: 0;
+        }
+        
+        header li:hover {
+            text-decoration: underline;
+        }
+        
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .Myhra{
+            font-size: 0.8em;
+            padding-top: 1em;
+        }
+
+
+        form input {
+            width: 20%;
+            font-size: 1em;
+            border-width: 0.1em;
+            margin: 0.4em;
+        }
+        
+        form select {
+            color: gray;
+            flex-direction: row;
+            width: 21%;
+            margin-left: 0.4em;
+            text-align: center;
+            border-radius: 0.2em;
+            height: 1.8em;
+        }
+        
+        input[type=text] {
+            background-color: white;
+        }
+        
+        input[type=text] {
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        
+        input[type=text]:focus {
+            width: 95%;
+        }
+        
+        option {
+            justify-content: space-between;
+        }
+        
+        div {
+            display: none;
+        }
+        
+        div img {
+            width: 100%;
+            height: 8em;
+            margin: 0;
+        }
+        
+        div h1 {
+            font-family: dfds;
+            letter-spacing: 0.05em;
+            font-size: 1.5em;
+            margin-top: 0.3em;
+            margin-bottom: 0;
+            margin-top: 0;
+            background-color: #D76D11;
+            padding-left: 0.3em;
+            padding-bottom: 0.1em;
+            padding-top: 0.1em;
+            color: white;
+            width: 10em;
+        }
+        
+        div button {
+            background-color: #D76D11;
+            border: none;
+            color: white;
+            padding: 0.4em 0.8em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em;
+            box-shadow: 0 0.45em 1em 0 rgba(0, 0, 0, 0.2), 0 0.45em 1em 0 rgba(0, 0, 0, 0.19);
+            margin: 0.5em;
+            margin: 0 auto;
+        }
+        /*beweeg*/
+        
+        footer.dancer {
+            transition: all 1s;
+        }
+        
+        footer.dancing {
+            transform: scale(2) rotate(-360deg);
+        }
+        /*main*/
+        
+        main section {
+            margin: 0.8em;
+        }
+        
+        main section:nth-of-type(1) article {
+            background-color: #112B43;
+        }
+        
+        main section:nth-of-type(1) p {
+            color: white;
+        }
+        
+        main section:nth-of-type(1) footer {
+            color: white;
+            margin-top: auto;
+            border-top-color: gray;
+        }
+
+    
+        
+        main article {
+            background-color: white;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+            margin-bottom: 1.5em;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main h1 {
+            font-family: dfds;
+            letter-spacing: 0.05em;
+            font-size: 1.6em;
+            margin-top: 0.3em;
+            margin-bottom: 0;
+            padding-left: 0.6em;
+            padding-bottom: 0.1em;
+            color: white;
+        }
+        
+        article h3 {
+            font-family: "Segoe ui";
+            font-size: 1.3em;
+            margin: 0;
+            padding-left: 0.6em;
+            color: #D76D11;
+        }
+        
+        main article h2 {
+            font-family: dfds;
+            letter-spacing: 0.05em;
+            font-size: 1.6em;
+            margin-top: 0.3em;
+            margin-bottom: 0;
+            background-color: #112B43;
+            padding-left: 0.6em;
+            padding-bottom: 0.1em;
+            color: white;
+            width: 57%;
+        }
+        
+        main > h2{
+            font-family: dfds;
+            font-size: 1.5em;
+            text-align: center;
+            color: #112B43;
+            
+        }
+
+
+        article a {
+            color: orange;
+        }
+
+
+        main p {
+            font-family: "Segoe ui";
+            font-size: 1em;
+            text-align: inherit;
+            margin-top: 0.2em;
+            margin-bottom: 1em;
+            ;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+        }
+        
+        article img {
+            width: 100%;
+        }
+        
+        article p {
+            padding-bottom: 0.5em;
+        }
+        
+        article p {
+            padding: 0.5em;
+        }
+        
+        li button {
+            align-items: flex-end;
+            background-color: #84BAE5;
+            border: none;
+            color: white;
+            padding: 0.4em 0.8em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            box-shadow: 0 0.45em 1em 0 rgba(0, 0, 0, 0.2), 0 0.45em 1em 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 0.5em;
+        }
+        
+        article footer {
+            display: flex;
+            margin-top: auto;
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-top-color: gray;
+            padding-top: .5em;
+            margin: 0 .6em 0 .6em;
+        }
+        
+        footer ul {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+
+        footer ul li:nth-of-type(1) div,
+        footer ul li:nth-of-type(3) div{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        footer ul li:nth-of-type(1) div img,
+        footer ul li:nth-of-type(3) div img{
+            width: 100%;
+            height: auto;
+        }
+
+        footer ul li:nth-of-type(1) div img:last-child,
+        footer ul li:nth-of-type(3) div img:last-child{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+            transform-origin: center;
+            transform: scale(0);
+        }
+        footer ul li:nth-of-type(1) div.active img:last-child,
+        footer ul li:nth-of-type(3) div.active img:last-child{
+            transform: scale(1);
+        }
+
+        
+            
+
+
+
+/*
+        .fa-heart {
+            color: #C62828;
+            font-size: 1.2em;
+        }
+*/
+        
+        .fa-comment {
+            color: #84BAE5;
+            font-size: 1.2em;
+        }
+        
+/*
+        .fa-star {
+            color: gold;
+            font-size: 1.2em;
+        }
+*/
+        
+        footer li {
+            list-style-type: none;
+            font-family: "Segoe ui";
+            font-size: 1em;
+        }
+
+    
+        /* aside */
+        
+        aside {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 6.5em;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        aside section {
+            position: relative;
+            height: 100%;
+        }
+        
+        .fa-gift {
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        aside button {
+            width: 4em;
+            height: 4em;
+            background-color: #D76D11;
+            border: none;
+            color: white;
+            justify-content: center;
+            text-decoration: none;
+            display: flex;
+            font-size: 1.2em;
+            box-shadow: 0 0.45em 1em 0 rgba(0, 0, 0, 0.2), 0 0.45em 1em 0 rgba(0, 0, 0, 0.19);
+            margin-right: 1em;
+            border-radius: 50%;
+        }
+        /*    login: */
+        
+        header nav form {
+            overflow: hidden;
+            background-color: #FFFFFF;
+        }
+        
+        header nav form input {
+            width: 90%;
+            height: 2em;
+            font-size: 1em;
+            padding-left: 0.3em;
+        }
+        
+        header nav fieldset {
+            background-color: #FFFFFF;
+        }
+        
+        .login {
+            position: absolute;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .login.open {
+            opacity: 1;
+            z-index: 999;
+            display: block;
+            width: 260%;
+            max-width: 10em;
+        }
+        
+        #registreren {
+            text-align: center;
+        }
+        
+        #registreren label {
+            display: flex;
+        }
+        
+        #registreren input {
+            width: 100%;
+            margin-bottom: 0.5em;
+        }
+        
+        #adres {
+            width: 100%;
+        }
+        
+        nav form {
+            background-color: white;
+            font-family: "Segoe ui";
+            font-size: 0.8em;
+        }
+        
+        main form input {
+            width: 90%;
+            height: 2em;
+            font-size: 1em;
+        }
+        
+        main form {
+            font-family: "Segoe ui";
+            background-color: white;
+        }
+        
+        body {
+            background-color: #E5E6E6;
+        }
+        /*     media quarie */
+        
+        @media screen and (min-width: 23em) {
+            body {
+                padding-top: 5.3em;
+            }
+        }
+        
+        @media screen and (min-width: 28em) {
+            form input {
+                width: 30%;
+                margin-left: 1em;
+            }
+            form select {
+                width: 20%;
+                margin-left: 0.3em;
+            }
+            form {
+                margin-bottom: 0.3em;
+            }
+            body {
+                padding-top: 5em;
+            }
+            form input {
+                margin-left: 0.1em;
+            }
+            input[type=text]:focus {
+                width: 30%;
+            }
+            article{
+                min-width: 12em;
+            
+            }
+            
+            
+        @media screen and (min-width: 33em) {
+                body {
+                    padding-top: 6em
+                }
+                main section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0.5em;
+                }
+                article {
+                    width: 45%;
+                }
+            }
+            @media screen and (min-width: 49em) {
+                div {
+                    display: block;
+                }
+                body {
+                    padding-top: 7em;
+                }
+                form {
+                    justify-content: center;
+                }
+                header li {
+                    color: #112B43;
+                    border-color: #112B43;
+                    background-color: white;
+                    padding: 0.6em;
+                    width: 25%;
+                    text-align: center;
+                }
+/*
+                a {
+                    background-color: #112B43;
+*/
+                }
+                main section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 0.5em;
+                }
+                article {
+                    width: 40%;
+                 
+                }
+                header li {
+                    font-size: 1.8em;
+                    padding: 0em;
+                    margin-top: 0.2em;
+                }
+/*
+                header nav a {
+                    background-color: #FFFFFF;
+*/
+                }
+                header nav form input {
+                    height: 1.4em;
+                }
+                nav form {
+                    font-size: 0.5em;
+                }
+                form input {
+                    width: 20%;
+                }
+                input[type=text] {
+                    background-color: white;
+                    background-position: 10px 10px;
+                    background-repeat: no-repeat;
+                }
+                input[type=text] {
+                    -webkit-transition: width 0.4s ease-in-out;
+                    transition: width 0.4s ease-in-out;
+                }
+                input[type=text]:focus {
+                    width: 35%;
+                }
+            }
